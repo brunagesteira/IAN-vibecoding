@@ -64,7 +64,7 @@ const translations = {
     whoText:
       "Para builders, operadores, engenheiros, fundadores e especialistas cujo trabalho fala antes deles.",
     whyEyebrow: "Indicação acima do ru&iacute;do",
-    whyTitle: "Por que privada",
+    whyTitle: "Por que privada?",
     whyMain:
       "As melhores oportunidades raramente come&ccedil;am com uma vaga publicada. Elas come&ccedil;am com mem&oacute;ria, reputa&ccedil;&atilde;o e confian&ccedil;a.",
     whySupport: "IAN existe para as pessoas cujos nomes surgem antes da busca come&ccedil;ar.",
