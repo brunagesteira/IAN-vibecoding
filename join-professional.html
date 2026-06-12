@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Submit a private referral to IAN for Web Summit Rio 2026."
+    />
+    <title>Submit a Private Referral | IAN</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Update form copy, links and field labels here when the referral flow changes. -->
+    <header class="site-header simple-header">
+      <a class="brand" href="index.html" aria-label="IAN home">
+        <span class="brand-mark">IAN</span>
+        <span class="brand-meta">Web Summit Rio &middot; 2026</span>
+      </a>
+      <a class="text-link" href="index.html">Back to home</a>
+    </header>
+
+    <main class="form-page">
+      <section class="section-band">
+        <div class="container narrow-container">
+          <p class="eyebrow">Private referral</p>
+          <h1>Submit a private referral</h1>
+          <p class="section-copy">
+            IAN is not open for applications. Referrals are reviewed through context,
+            reputation and trust.
+          </p>
+
+          <form class="referral-form" id="referral-form" novalidate>
+            <div class="form-status" id="form-status" aria-live="polite"></div>
+
+            <fieldset>
+              <legend>About you</legend>
+              <div class="form-grid">
+                <div class="form-field">
+                  <label for="your-name">Your name <span aria-hidden="true">*</span></label>
+                  <input id="your-name" name="yourName" type="text" autocomplete="name" data-required />
+                </div>
+
+                <div class="form-field">
+                  <label for="your-email">Your email <span aria-hidden="true">*</span></label>
+                  <input id="your-email" name="yourEmail" type="email" autocomplete="email" data-required />
+                </div>
+
+                <div class="form-field">
+                  <label for="your-company">Your company / organization</label>
+                  <input id="your-company" name="yourCompany" type="text" autocomplete="organization" />
+                </div>
+
+                <div class="form-field">
+                  <label for="relationship">Your relationship to the referral</label>
+                  <input id="relationship" name="relationship" type="text" />
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>About the person you are referring</legend>
+              <div class="form-grid">
+                <div class="form-field">
+                  <label for="referral-name">Referral's full name <span aria-hidden="true">*</span></label>
+                  <input id="referral-name" name="referralName" type="text" data-required />
+                </div>
+
+                <div class="form-field">
+                  <label for="referral-email">Referral's email</label>
+                  <input id="referral-email" name="referralEmail" type="email" />
+                </div>
+
+                <div class="form-field">
+                  <label for="referral-linkedin">Referral's LinkedIn <span aria-hidden="true">*</span></label>
+                  <input
+                    id="referral-linkedin"
+                    name="referralLinkedin"
+                    type="url"
+                    inputmode="url"
+                    placeholder="https://www.linkedin.com/in/name"
+                    data-required
+                  />
+                </div>
+
+                <div class="form-field">
+                  <label for="current-company">Current company</label>
+                  <input id="current-company" name="currentCompany" type="text" />
+                </div>
+
+                <div class="form-field">
+                  <label for="current-role">Current role</label>
+                  <input id="current-role" name="currentRole" type="text" />
+                </div>
+
+                <div class="form-field">
+                  <label for="location">Location</label>
+                  <input id="location" name="location" type="text" autocomplete="address-level2" />
+                </div>
+
+                <div class="form-field full-span">
+                  <label for="referral-reason">
+                    Why should this person be remembered? <span aria-hidden="true">*</span>
+                  </label>
+                  <textarea id="referral-reason" name="referralReason" rows="6" data-required></textarea>
+                </div>
+              </div>
+            </fieldset>
+
+            <label class="checkbox-field" for="trust-confirmation">
+              <input id="trust-confirmation" name="trustConfirmation" type="checkbox" data-required />
+              <span>
+                I confirm this referral is based on a real professional relationship or trusted
+                context.
+              </span>
+            </label>
+
+            <button class="button button-primary" type="submit">Submit referral</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
