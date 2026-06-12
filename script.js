@@ -59,8 +59,8 @@ const translations = {
     stepThreeTitle: "Oportunidades encontram as pessoas certas",
     stepThreeText:
       "Perfis selecionados podem ser conectados a oportunidades privadas e parceiros confi&aacute;veis.",
-    whoEyebrow: "Para quem já chegou em algum lugar. E quer estar perto de quem está indo mais longe.",
-    whoTitle: "Para quem já chegou em algum lugar. E quer estar perto de quem está indo mais longe.",
+    whoEyebrow: "Para quem já chegou em algum lugar. E quer ir mais longe.",
+    whoTitle: "Para quem já chegou em algum lugar. E quer ir mais longe.",
     whoText:
       "Para builders, operadores, engenheiros, fundadores e especialistas cujo trabalho fala antes deles.",
     whyEyebrow: "Indicação acima do ru&iacute;do",
